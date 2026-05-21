@@ -4,8 +4,16 @@ site_url: https://mataii.github.io/Range-Node-Core-Docs/
 theme:
   name: material
 
-nav:
-  - Home: index.md
-
 plugins:
   - search
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          build: true
+        es:
+          name: Español
+          build: true
+
+docs_dir: docs
