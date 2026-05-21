@@ -1,0 +1,11 @@
+site_name: Range Node Core
+site_url: https://mataii.github.io/Range-Node-Core-Docs/
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+plugins:
+  - search
