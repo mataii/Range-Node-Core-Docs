@@ -7,12 +7,13 @@ theme:
 plugins:
   - search
   - i18n:
-      default_language: en
+      docs_structure: folder
       languages:
-        en:
+        - locale: en
+          default: true
           name: English
           build: true
-        es:
+        - locale: es
           name: Español
           build: true
 
