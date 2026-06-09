@@ -1,6 +1,6 @@
 # Range Node Core — Manual
 
-**Range Node Core (RNC)** es un addon para **Blender 2.79** que agrega un sistema de nodos blueprint al **Range Game Engine** (fork de BGE). Permite programar la lógica de tus objetos de juego visualmente conectando nodos, sin escribir código Python directamente.
+**Range Node Core (RNC)** es un addon que agrega un sistema de nodos blueprint al **Range Game Engine** (fork de BGE). Permite programar la lógica de tus objetos de juego visualmente conectando nodos, sin escribir código Python directamente.
 
 ## Cómo funciona
 

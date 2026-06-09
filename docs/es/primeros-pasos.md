@@ -24,7 +24,7 @@ Un cubo que gira sobre su eje Z cada frame, usando solo dos nodos:
 
 ## Requisitos previos
 
-- Blender 2.79 con Range Game Engine instalado
+- Range Game Engine instalado
 - El addon **Range Node Core** activado
 - Una escena con al menos un objeto mesh (el cubo por defecto sirve)
 

@@ -9,7 +9,7 @@ Reproduce una acción de animación en el objeto usando `playAction()` de Range 
 
 | Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|-------------|-------------|
-| Action | String | `"action_name"` | Nombre del action de Blender a reproducir |
+| Action | String | `"action_name"` | Nombre de la action a reproducir |
 | Start Frame | Int | `1` | Frame de inicio |
 | End Frame | Int | `60` | Frame final |
 | Layer | Int | `0` | Capa de animación (0–7) |

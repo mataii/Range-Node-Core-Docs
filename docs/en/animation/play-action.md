@@ -9,7 +9,7 @@ Plays an animation action on the object using Range Game Engine's `playAction()`
 
 | Property | Type | Default | Description |
 |----------|------|---------|-------------|
-| Action | String | `"action_name"` | Name of the Blender action to play |
+| Action | String | `"action_name"` | Name of the action to play |
 | Start Frame | Int | `1` | Start frame |
 | End Frame | Int | `60` | End frame |
 | Layer | Int | `0` | Animation layer (0–7) |

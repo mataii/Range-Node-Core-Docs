@@ -24,7 +24,7 @@ A cube that rotates on its Z axis every frame, using just two nodes:
 
 ## Prerequisites
 
-- Blender 2.79 with Range Game Engine installed
+- Range Game Engine installed
 - The **Range Node Core** addon enabled
 - A scene with at least one mesh object (the default cube works fine)
 
