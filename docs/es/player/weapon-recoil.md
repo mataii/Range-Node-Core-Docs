@@ -7,7 +7,7 @@ Acumula retroceso por cada disparo y lo recupera gradualmente. Publica valores d
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Pitch | Float | `3.0` | Retroceso vertical por disparo (grados) |
 | Max Pitch | Float | `15.0` | Pitch acumulado máximo (grados) |

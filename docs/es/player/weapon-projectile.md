@@ -7,7 +7,7 @@ Spawnea y configura un objeto proyectil en la escena cuando `weapon_fired = True
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Object Name | String | `"Projectile"` | Nombre del objeto inactivo en la escena |
 | Speed | Float | `50.0` | Velocidad inicial del proyectil (unidades/s) |

@@ -11,7 +11,7 @@ Spawnea objetos de FX en respuesta a `weapon_fired` (flash de cañón, casquillo
 
 ### Flash de cañón
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Muzzle Flash | Bool | `True` | Activa el flash de cañón |
 | Muzzle Object | String | `"MuzzleFX"` | Nombre del objeto inactivo en la escena |
@@ -21,7 +21,7 @@ Spawnea objetos de FX en respuesta a `weapon_fired` (flash de cañón, casquillo
 
 ### Casquillo
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Shell Eject | Bool | `False` | Activa la expulsión de casquillos |
 | Shell Object | String | `"ShellFX"` | Nombre del objeto inactivo en la escena |
@@ -29,7 +29,7 @@ Spawnea objetos de FX en respuesta a `weapon_fired` (flash de cañón, casquillo
 
 ### Impacto
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Impact FX | Bool | `True` | Activa los FX de impacto |
 | Impact Object | String | `"ImpactFX"` | Nombre del objeto inactivo en la escena |

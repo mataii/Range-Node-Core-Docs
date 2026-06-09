@@ -9,7 +9,7 @@ Aplica multiplicadores por clase de arma a los parámetros del pipeline. Define 
 
 ### Topes globales
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Damage Cap | Float (0.1–20) | `5.0` | Multiplicador máximo de daño |
 | Recoil Cap | Float (0.1–20) | `5.0` | Multiplicador máximo de retroceso |
@@ -20,7 +20,7 @@ Aplica multiplicadores por clase de arma a los parámetros del pipeline. Define 
 
 ### Modificadores globales
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | ADS Spread × | Float (0–1) | `0.60` | Spread cuando ADS activo (< 1 = más preciso) |
 | ADS Recoil × | Float (0–1) | `0.80` | Recoil cuando ADS activo |

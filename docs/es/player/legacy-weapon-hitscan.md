@@ -9,7 +9,7 @@ Lanza un raycast desde la cámara o el objeto cuando `weapon_fired = True` y pub
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Damage | Float (≥0) | `25.0` | Daño por impacto exitoso |
 | Range | Float (≥0.1) | `100.0` | Distancia máxima del raycast (unidades de Range) |

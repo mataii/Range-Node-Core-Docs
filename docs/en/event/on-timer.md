@@ -111,4 +111,4 @@ Use **On Timer** when you need progress feedback or simpler setup inside an exis
 - `_tmr_progress` is available as a local variable in nodes connected to both Elapsed and Waiting paths.
 - On Timer counts down using `deltaTime()` — if the game runs slowly, ticks are larger and the timer is still accurate in real time.
 - Multiple On Timer nodes in the same tree each maintain their own `_tmr_<name>` variable (namespaced by node name).
-- Resetting the timer programmatically: `del self._tmr_<name>` in a [BTCustomTask](../ai/bt-custom-task.md) — the next frame re-initializes it to the full duration.
+- Resetting the timer programmatically: `del self._tmr_<name>` in a [BTCustomTask](../ai-bt/bt-custom-task.md) — the next frame re-initializes it to the full duration.

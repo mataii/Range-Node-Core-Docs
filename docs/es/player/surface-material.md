@@ -7,7 +7,7 @@ Lee el tipo de superficie del objeto impactado (a través de una propiedad BGE) 
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Property | String | `"_surface"` | Propiedad BGE del objeto impactado que contiene el tipo de superficie |
 | Default Type | String | `"concrete"` | Tipo usado cuando la propiedad no existe en el objeto |

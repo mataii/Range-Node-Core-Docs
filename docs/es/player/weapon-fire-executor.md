@@ -9,7 +9,7 @@ Debe colocarse **después** de Weapon State Publisher y **antes** de los nodos d
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Mode | Enum | `Semi-Auto` | Modo de disparo |
 | Fire Rate | Float (0.1–100) | `10.0` | Disparos por segundo (Auto y Burst) |

@@ -7,7 +7,7 @@ Aplica daño radial con falloff a todos los objetos dentro de un radio al moment
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Radius | Float | `5.0` | Radio de la explosión (unidades de Range) |
 | Max Damage | Float | `100.0` | Daño máximo al centro del radio (distancia 0) |

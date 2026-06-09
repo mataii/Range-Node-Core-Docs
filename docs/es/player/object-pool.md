@@ -7,7 +7,7 @@ Pre-instancia un número fijo de objetos al inicio del juego y los aparca fuera 
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Object Name | String | `""` | Nombre del objeto plantilla inactivo en la escena |
 | Pool Size | Int (1–256) | `10` | Objetos a pre-instanciar al inicio |

@@ -7,7 +7,7 @@ Sistema de interacción con objetos de la escena mediante raycast. Detecta objet
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Range | Float | `2.5` | Distancia máxima de interacción (unidades de Range) |
 | Property Filter | String | `"interactable"` | Propiedad BGE que marca objetos como interactuables |

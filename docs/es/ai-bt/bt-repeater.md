@@ -7,7 +7,7 @@ Decorador que acumula resultados `SUCCESS` del nodo anterior. Devuelve `RUNNING`
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Repeat N | Int (≥1) | `3` | Número de `SUCCESS` a acumular antes de propagar `SUCCESS` |
 | Reset on Failure | Bool | `True` | Reinicia el contador si el nodo hijo devuelve `FAILURE` |

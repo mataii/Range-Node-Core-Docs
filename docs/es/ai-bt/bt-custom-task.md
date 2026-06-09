@@ -8,7 +8,7 @@ Ejecuta código Python libre. Debe establecer `self._bt_last_result` a `'SUCCESS
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Code | String | `"self._bt_last_result = 'SUCCESS'"` | Código Python a ejecutar cada frame |
 

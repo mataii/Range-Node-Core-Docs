@@ -7,7 +7,7 @@ Implementa el sistema de "Apuntar" (Aim Down Sights). Gestiona la transición su
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Right Mouse to Aim | Bool | `True` | Botón derecho del mouse como input ADS |
 | Toggle Mode | Bool | `False` | Pulsar para entrar/salir (en lugar de mantener) |

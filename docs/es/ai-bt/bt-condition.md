@@ -9,7 +9,7 @@ Es el nodo de **toma de decisiones** del árbol: la "pregunta" que determina qu�
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | BB Key | String | `""` | Clave del blackboard a leer. Su valor queda disponible como `val` en la condición |
 | Condition | String | `"val == True"` | Expresión Python. `val` = valor del blackboard, `self` = componente |

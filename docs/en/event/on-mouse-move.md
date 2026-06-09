@@ -87,5 +87,5 @@ else:
 - `_mm_dx` and `_mm_dy` are local variables available in any node connected to the Moving or Still paths.
 - The threshold filters out sub-pixel jitter from sensors — lower it only if you need very fine precision.
 - Delta values depend on the screen resolution and OS mouse speed — apply a sensitivity multiplier for consistent behavior across systems.
-- On Mouse Move reads `Range.logic.mouse.position`, which is the OS cursor position. If the cursor is locked (first-person mode), use `Range.logic.mouse.deltaPosition` instead, via a [BTCustomTask](../ai/bt-custom-task.md).
+- On Mouse Move reads `Range.logic.mouse.position`, which is the OS cursor position. If the cursor is locked (first-person mode), use `Range.logic.mouse.deltaPosition` instead, via a [BTCustomTask](../ai-bt/bt-custom-task.md).
 - Multiple On Mouse Move nodes in the same tree each maintain their own `_mm_last` variable (namespaced by node name).

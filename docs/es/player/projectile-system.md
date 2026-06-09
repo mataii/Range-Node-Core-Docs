@@ -7,7 +7,7 @@ Comportamiento completo del proyectil en vuelo. Se coloca en el **objeto proyect
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Damage | Float | `25.0` | Daño entregado al objeto impactado |
 | Lifetime | Float | `3.0` | Segundos hasta autodestrucción |

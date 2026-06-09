@@ -9,7 +9,7 @@ Controla el disparo de arma en modo Semi-Auto o Auto. En Semi, delega en Player 
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Mode | Enum | `Semi-Auto` | `Semi-Auto` (un disparo por pulsación) o `Auto` (fuego continuo mientras se mantiene) |
 | Fire Rate | Float (0.1–100) | `10.0` | Disparos por segundo (solo en modo Auto) |

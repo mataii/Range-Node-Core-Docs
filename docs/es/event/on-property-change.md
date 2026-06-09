@@ -9,9 +9,7 @@ Detecta cuando una propiedad BGE del objeto propietario cambia de valor entre fr
 
 | Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|-------------|-------------|
-| Property | Enum | *(propiedades BGE del objeto)* | Propiedad a monitorear |
-
-El desplegable muestra las propiedades BGE definidas en el objeto activo.
+| Property | String | `"hp"` | Nombre de la propiedad del objeto a monitorear en `self.own` |
 
 ## Sockets
 
@@ -92,12 +90,14 @@ El desplegable de On Property Change muestra automáticamente las propiedades de
 
 ## Variables disponibles en nodos siguientes
 
-Cuando el camino `Changed` ejecuta, las variables locales `_pc_new` y `_pc_old` están disponibles:
+`_pc_new` y `_pc_old` son variables locales disponibles en cualquier nodo conectado a los caminos `Changed` o `Same`:
 
 ```python
 # En un BTCustomTask conectado a Changed:
 print(f"Cambió de {_pc_old} a {_pc_new}")
 ```
+
+En el camino `Same`, `_pc_old` es igual a `_pc_new` — el valor no cambió en este frame.
 
 ## Notas
 
@@ -105,3 +105,5 @@ print(f"Cambió de {_pc_old} a {_pc_new}")
 - Si el valor cambia y vuelve al valor original en el mismo frame, el nodo **sí** detecta el cambio (porque se compara con el valor del frame anterior, no con el original).
 - On Property Change es más ligero que un BTCustomTask con comparación manual — solo hace un `get` y una comparación por frame.
 - Para monitorear propiedades de **otro objeto** (no del propietario), usar un BTCustomTask con `other_obj.get('prop')` y comparación manual.
+- Para monitorear un **atributo Python** (no una propiedad del objeto), usa un [BTCustomTask](../ai-bt/bt-custom-task.md) con comparación manual mediante `getattr` / `setattr`.
+- Cada nodo On Property Change monitorea su propia variable `_prev_<propiedad>` de forma independiente — múltiples nodos en el mismo árbol no interfieren entre sí.

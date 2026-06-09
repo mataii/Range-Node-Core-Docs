@@ -7,7 +7,7 @@ Lee el teclado y el mouse cada frame y almacena el estado normalizado en variabl
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Forward | Enum | `W` | Tecla para avanzar |
 | Backward | Enum | `S` | Tecla para retroceder |

@@ -8,7 +8,7 @@ Mueve el objeto propietario hacia un objetivo de la escena. Devuelve `RUNNING` m
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Target | Enum | *(objetos de escena)* | Nombre del objeto destino |
 | Speed | Float (≥0.01) | `3.0` | Velocidad de movimiento (unidades/s) |

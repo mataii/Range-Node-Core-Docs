@@ -7,7 +7,7 @@ Modifica un slot del inventario en tiempo de ejecución. Úsalo para pickups de 
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Slot | Int (0–9) | `0` | Índice del slot a modificar (anulado por socket) |
 | Enable | Bool | `True` | `True` = dar arma, `False` = quitar arma |

@@ -9,7 +9,7 @@ Debe colocarse **antes** de Weapon Fire Executor para que el bloqueo sea visible
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Reload Time | Float | `2.0` | Duración de la recarga en segundos |
 

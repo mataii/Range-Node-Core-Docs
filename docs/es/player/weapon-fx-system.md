@@ -9,7 +9,7 @@ Sistema moderno de efectos visuales de arma. Reactivo a los eventos del pipeline
 
 ### Flash de cañón
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Muzzle Flash | Bool | `True` | Activa el flash de cañón |
 | Muzzle Object | String | `"MuzzleFX"` | Objeto inactivo en la escena |
@@ -19,7 +19,7 @@ Sistema moderno de efectos visuales de arma. Reactivo a los eventos del pipeline
 
 ### Humo
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Smoke FX | Bool | `False` | Activa el humo del cañón |
 | Smoke Object | String | `"SmokeFX"` | Objeto inactivo en la escena |
@@ -27,7 +27,7 @@ Sistema moderno de efectos visuales de arma. Reactivo a los eventos del pipeline
 
 ### Casquillo
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Shell Eject | Bool | `False` | Activa la expulsión de casquillos |
 | Shell Object | String | `"ShellFX"` | Objeto inactivo en la escena |
@@ -36,7 +36,7 @@ Sistema moderno de efectos visuales de arma. Reactivo a los eventos del pipeline
 
 ### Impacto
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Impact FX | Bool | `True` | Activa los FX de impacto |
 | Impact Object | String | `"ImpactFX"` | Objeto inactivo por defecto |

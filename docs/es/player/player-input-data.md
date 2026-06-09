@@ -13,7 +13,7 @@ Nodo de datos puro. Lee una variable `_pi_*` publicada por **Player Input** en e
 
 ### Opciones del selector Data
 
-| Opción | Variable leída | Tipo | Default |
+| Opción | Variable leída | Tipo | Por defecto |
 |--------|----------------|------|---------|
 | Move X | `_pi_move_x` | float | 0.0 |
 | Move Y | `_pi_move_y` | float | 0.0 |

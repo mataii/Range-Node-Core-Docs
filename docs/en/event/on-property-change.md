@@ -73,10 +73,23 @@ else:
                                        └── True ──► [BTCustomTask: activate_low_hp_warning()]
 ```
 
+## Available variables in connected nodes
+
+`_pc_new` and `_pc_old` are local variables available in any node connected to the `Changed` or `Same` paths:
+
+```python
+# In a BTCustomTask connected to Changed:
+print(f"Changed from {_pc_old} to {_pc_new}")
+```
+
+On the `Same` path, `_pc_old` equals `_pc_new` — the value did not change this frame.
+
 ## Notes
 
 - The property must exist on `self.own` — if it does not exist, `self.own.get('hp', None)` returns `None` and the node treats it as the current value.
 - Comparison uses Python's `!=` operator — works for int, float, string, and bool properties. Lists and dicts are compared by identity, not by content.
 - `_pc_new` and `_pc_old` are local variables available in nodes connected to both the Changed and Same paths.
-- To monitor a Python attribute (not a BGE property), use a [BTCustomTask](../ai/bt-custom-task.md) with manual `getattr` / `setattr` comparison instead.
+- To monitor a Python attribute (not a BGE property), use a [BTCustomTask](../ai-bt/bt-custom-task.md) with manual `getattr` / `setattr` comparison instead.
+- To monitor a property on **a different object** (not the owner), use a [BTCustomTask](../ai-bt/bt-custom-task.md) with `other_obj.get('prop')` and manual comparison.
+- If the value changes and returns to its original within the same frame, the node **will** fire `Changed` — it compares against the previous frame's value, not the original.
 - Multiple On Property Change nodes monitoring different properties each maintain their own `_prev_<prop>` variable.

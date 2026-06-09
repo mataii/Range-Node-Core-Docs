@@ -9,7 +9,7 @@ Gestiona el cono de dispersión balística del arma. Acumula bloom por disparos 
 
 ### Dispersión base
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Base Spread | Float | `1.0` | Cono mínimo de inaccuracidad (grados) |
 | Max Spread | Float | `8.0` | Máximo bloom acumulado (grados) |
@@ -18,7 +18,7 @@ Gestiona el cono de dispersión balística del arma. Acumula bloom por disparos 
 
 ### Penalizaciones
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Moving Penalty | Bool | `True` | Aumenta la dispersión al moverse |
 | Move Multiplier | Float | `2.0` | Multiplicador de dispersión en movimiento |
@@ -30,14 +30,14 @@ Gestiona el cono de dispersión balística del arma. Acumula bloom por disparos 
 
 ### Acoplamiento con Recoil
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Recoil Coupling | Bool | `False` | Añade una fracción del recoil al bloom por disparo |
 | Recoil Scale | Float | `0.5` | Fracción de `weapon_recoil_offset` añadida al bloom |
 
 ### Patrón determinista
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Pattern Spread | Bool | `False` | Usa una lista de magnitudes fijas en lugar del bloom |
 | Pattern | String | `"1.0,2.0,1.5,2.5,1.0"` | Valores de cono separados por comas (grados), cíclicos |

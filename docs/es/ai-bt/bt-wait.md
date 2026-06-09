@@ -8,7 +8,7 @@ Espera un tiempo fijo (o aleatorio) antes de reportar `SUCCESS`. Devuelve `RUNNI
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Duration (s) | Float (≥0) | `1.0` | Segundos a esperar |
 | Randomize | Bool | `False` | Aleatoriza la duración entre `Duration` y `Duration + Variance` |

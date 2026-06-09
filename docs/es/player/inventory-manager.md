@@ -9,7 +9,7 @@ Ramifica a `Changed` cuando ocurre un evento (disparo, recarga, cambio de slot) 
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Slot Count | Int (1–10) | `10` | Número de slots activos |
 | Slot [n] — Enable | Bool | `False` | Activa el slot n |

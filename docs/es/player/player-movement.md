@@ -7,7 +7,7 @@ Aplica movimiento al objeto del jugador leyendo los ejes `_pi_move_x` / `_pi_mov
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Physics | Enum | `Character` | Modo de física: `Character` (applyMovement) o `Dynamic` (linearVelocity) |
 | Speed | Float | `4.0` | Velocidad de caminar (unidades/s) |

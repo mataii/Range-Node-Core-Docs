@@ -7,7 +7,7 @@ Agrega y republica estado de gameplay bajo el prefijo `ui_*`, creando una capa d
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Update Rate | Float (0–10) | `0.0` | Segundos entre publicaciones; `0.0` = cada frame |
 | Health | Bool | `True` | Publica `ui_hp` y `ui_hp_max` |

@@ -9,7 +9,7 @@ Guarda y carga el estado del juego en archivos JSON. Soporta múltiples slots, t
 
 ### Archivo
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Path | String | `"//saves/"` | Directorio de archivos de guardado (`//` = carpeta del juego) |
 | Slot | Int (0–9) | `0` | Índice del slot de guardado activo |
@@ -17,14 +17,14 @@ Guarda y carga el estado del juego en archivos JSON. Soporta múltiples slots, t
 
 ### Teclas
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Save Key | Enum | `T` | Tecla para guardar manualmente |
 | Load Key | Enum | `B` | Tecla para cargar manualmente |
 
 ### Inicio y autosave
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Load on Start | Bool | `False` | Carga el slot automáticamente en el primer frame si existe |
 | Autosave | Bool | `False` | Activa el guardado automático por tiempo |
@@ -32,7 +32,7 @@ Guarda y carga el estado del juego en archivos JSON. Soporta múltiples slots, t
 
 ### Contenido del guardado
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Player State | Bool | `True` | Incluye `player_hp` y `player_hp_max` |
 | Ammo State | Bool | `True` | Incluye `weapon_ammo_in_mag`, `weapon_magazines`, `weapon_type` |
@@ -40,7 +40,7 @@ Guarda y carga el estado del juego en archivos JSON. Soporta múltiples slots, t
 
 ### Debug
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Debug | Bool | `False` | Imprime eventos de guardado/carga en la consola |
 

@@ -8,7 +8,7 @@ Escribe un valor en el blackboard (`self._bt_bb`). Siempre devuelve `SUCCESS`. E
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Key | String | `"my_key"` | Clave del blackboard a escribir |
 | Value | String | `"True"` | Expresión Python evaluada al momento de ejecutar |

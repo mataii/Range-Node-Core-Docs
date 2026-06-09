@@ -7,7 +7,7 @@ Aplica salto al objeto cuando el jugador presiona la tecla configurada en **Play
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Physics | Enum | `Character` | Modo de física del objeto |
 | Jump Force | Float | `7.0` | Fuerza / velocidad del salto |

@@ -8,7 +8,7 @@ Ejecuta código Python a intervalos regulares (no cada frame). Útil para tareas
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Interval (s) | Float (≥0.016) | `0.5` | Segundos entre ejecuciones del código |
 | Code | String | `"self._bt_bb['service_tick'] = True"` | Python ejecutado cada Interval segundos |

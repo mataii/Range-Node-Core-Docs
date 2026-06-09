@@ -9,7 +9,7 @@ Nodo que se adjunta al **objeto proyectil** (no al jugador). Gestiona su ciclo d
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Damage | Float (≥0) | `25.0` | Daño aplicado al objeto golpeado |
 | Lifetime | Float (≥0.1) | `3.0` | Segundos hasta auto-destrucción |

@@ -9,7 +9,7 @@ Soporta múltiples pellets (escopeta), filtro por propiedad BGE, filtro de equip
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Damage | Float | `25.0` | Daño por raycast/pellet que impacta |
 | Range | Float | `100.0` | Distancia máxima del raycast (unidades de Range) |

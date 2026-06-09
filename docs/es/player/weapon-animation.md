@@ -11,7 +11,7 @@ Debe colocarse en el objeto del **modelo del arma** (viewmodel), no en el objeto
 
 ### Animaciones core
 
-| Propiedad | Default | Descripción |
+| Propiedad | Por defecto | Descripción |
 |-----------|---------|-------------|
 | Idle | `"WeaponIdle"` | Animación en reposo |
 | Fire | `"WeaponFire"` | Animación de disparo |
@@ -21,14 +21,14 @@ Debe colocarse en el objeto del **modelo del arma** (viewmodel), no en el objeto
 
 ### Animaciones de movimiento
 
-| Propiedad | Default | Descripción |
+| Propiedad | Por defecto | Descripción |
 |-----------|---------|-------------|
 | Walk | `""` | Mientras `_pi_is_moving` (opcional) |
 | Sprint | `""` | Mientras `_pi_is_sprinting` (opcional) |
 
 ### ADS y extras
 
-| Propiedad | Default | Descripción |
+| Propiedad | Por defecto | Descripción |
 |-----------|---------|-------------|
 | ADS Enter | `"WeaponADSEnter"` | Transición de entrada ADS (opcional) |
 | ADS Exit | `"WeaponADSExit"` | Transición de salida ADS (opcional) |
@@ -36,7 +36,7 @@ Debe colocarse en el objeto del **modelo del arma** (viewmodel), no en el objeto
 
 ### Reproducción
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Layer | Int (0–32) | `1` | Capa de animación de Range |
 | Blend In | Float | `5.0` | Frames de blend-in para todas las transiciones |

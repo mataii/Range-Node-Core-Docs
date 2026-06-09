@@ -8,7 +8,7 @@ Reproduce una acción de animación en el objeto. Devuelve `RUNNING` mientras la
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Action | String | `""` | Nombre de la acción BGE a reproducir |
 | Start | Int (≥0) | `0` | Frame de inicio |

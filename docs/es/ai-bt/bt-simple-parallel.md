@@ -8,7 +8,7 @@ Ejecuta una **acción de fondo** en cada frame (escribiendo un valor al blackboa
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | BB Key | String | `""` | Clave del blackboard a actualizar cada frame |
 | BB Value | String | `"True"` | Expresión Python evaluada cada frame para el valor |

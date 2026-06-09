@@ -9,7 +9,7 @@ Al iniciarse, intenta cargar HP guardado desde la propiedad BGE `_sl_player_hp` 
 
 ## Propiedades
 
-| Propiedad | Tipo | Default | Descripción |
+| Propiedad | Tipo | Por defecto | Descripción |
 |-----------|------|---------|-------------|
 | Max HP | Float | `100.0` | Puntos de vida máximos |
 | Regen | Bool | `False` | Activa la regeneración automática |
